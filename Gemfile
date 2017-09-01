@@ -55,3 +55,10 @@ gem "ckeditor"
 gem "ransack"
 gem "twitter-bootstrap-rails"
 
+group :development do
+  gem 'sqlite3'
+  end
+
+  group :production do
+  gem 'pg'
+  end
